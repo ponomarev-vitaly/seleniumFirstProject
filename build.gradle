@@ -22,3 +22,7 @@ dependencies {
     )
 }
 
+task webdriverManager(type: Exec) {
+    commandLine 'java', '-jar', 'webdrivermanager.jar'
+}
+
